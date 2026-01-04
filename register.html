@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>videobelajar</title>
+
+  <link rel="icon" type="image/png" href="./img/icon.png">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#FFF8EE] min-h-screen flex flex-col">
+
+<!-- Navbar -->
+<nav class="bg-white shadow">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    
+    <a href="index.html" class="text-2xl font-bold text-orange-500">
+      videobelajar
+    </a>
+
+    <a href="login.html"
+      class="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600">
+      Masuk
+    </a>
+
+  </div>
+</nav>
+
+  <!-- Content -->
+  <main class="flex flex-1 items-center justify-center px-4">
+    <div class="bg-white p-8 rounded-xl shadow w-full max-w-md">
+      <h2 class="text-xl font-bold text-center mb-2">Pendaftaran Akun</h2>
+      <p class="text-sm text-center text-gray-500 mb-6">
+        Yuk, daftarkan akunmu sekarang
+      </p>
+
+      <form class="space-y-4">
+        <input type="text" placeholder="Nama Lengkap"
+          class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400">
+
+        <input type="email" placeholder="E-Mail"
+          class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400">
+
+        <input
+          type="tel"
+          placeholder="No HP"
+          inputmode="numeric"
+          pattern="[0-9]*"
+          maxlength="13"
+          class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400">
+
+        <input type="password" placeholder="Kata Sandi"
+          class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400">
+
+        <input type="password" placeholder="Konfirmasi Kata Sandi"
+          class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400">
+
+        <button
+          class="w-full bg-orange-500 text-white py-2 rounded-lg hover:bg-orange-600">
+          Daftar
+        </button>
+      </form>
+
+      <p class="text-center text-sm mt-4">
+        Sudah punya akun?
+        <a href="login.html" class="text-orange-500 font-semibold">Masuk</a>
+      </p>
+    </div>
+  </main>
+
+</body>
+</html>
